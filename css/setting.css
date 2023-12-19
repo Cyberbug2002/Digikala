@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+div.main>a{
+    text-decoration: none;
+    position: relative;
+    right: 44%;
+    color: black;
+    font-size: 20px;
+}
+div.main>a>span{
+    color: rgb(167, 167, 22);
+}
+
+p>span{
+    color: crimson;
+}
+
+
+div.btn{
+    text-align: center;
+    background-color: crimson;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: fixed;
+    left: 50px;
+    bottom: 30px;
+    z-index: 9;
+}
+div.btn>.fa-headset{
+    font-size: 25px;
+    color: azure;
+    position: relative;
+    top: 10px;
+}
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 15%;
+    transition: 400ms;
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: sanss;
+    src: url(../font/AIranianSans.eot);
+    src: url(../font/AIranianSans.ttf);
+    src: url(../font/AIranianSans.woff);
+    src: url(../font/AIranianSans.woff2);
+}
+body{
+    font-family: sanss;
+}

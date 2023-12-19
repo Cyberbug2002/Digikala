@@ -1,0 +1,39 @@
+div.application{
+    width: 1600px;
+    height: 100px;
+    background-color: #3C4B6D;
+    border-radius: 10px;
+    margin-right: 120px;
+}
+div.application>div{
+    display: inline-block;
+    margin: 10px auto;
+    margin-right: 30px;
+}
+div.application>div>p{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+div.application>div:nth-of-type(1)>img{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+div.application>div:nth-of-type(6)>a>img{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+}
+div.application>div:nth-of-type(6)>a>img,div.application>div:nth-of-type(5)>a>img,div.application>div:nth-of-type(4)>a>img,div.application>div:nth-of-type(3)>a>img{
+    position: relative;
+    right: 600px;
+}
+div:nth-of-type(5)>a>img,div.application>div:nth-of-type(4)>a>img,div.application>div:nth-of-type(3)>a>img{
+    position: relative;
+    bottom: 10px;
+}

@@ -1,0 +1,79 @@
+div.adv6{
+    width: 1300px;
+    height: 350px;
+    background-color: blueviolet;
+    position: relative;
+    right: calc(50% - 1300px / 2);
+    border-radius: 20px;
+}
+div.adv6>div{
+    display: inline-block;
+}
+div.adv6>div.one{
+    width: 400px;
+    height: 200px;
+}
+div.adv6>div.one>a{
+    position: relative;
+    right: 40px;
+    top: 40px;
+}
+div.adv6>div.one>p{
+    font-size: 15px;
+    position: relative;
+    left: 35px;
+    color: whitesmoke;
+}
+div.adv6>div.one>.join{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: bl;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+div.adv6>div.two{
+    background-color: white;
+    width: 900px;
+    height: 300px;
+    position: relative;
+    bottom: 170px;
+    right: 390px;
+    border-radius: 10px;
+}
+
+div.adv6>div.two>a{
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    right: 50px;
+}
+
+div.adv6>div.two>a>img{
+    width: 115px;
+    height: 115px;
+    margin-left: 10px;
+}
+
+div.adv6>div.two>div{
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+div.adv6>div.two>div>a{
+    color: blueviolet;
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    right: 600px;
+}
+div.adv6>div.two>div>span{
+    font-size: 15px;
+    color: blueviolet;
+}

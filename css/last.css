@@ -1,0 +1,26 @@
+div.last{
+    width: 1300px;
+    height: 300px;
+    position: relative;
+    right: calc(50% - 1300px / 2);
+}
+div.last>div{
+    display: inline-block;
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(200, 196, 196, 0.572);
+}
+div.last>div>img{
+    width: 320px;
+    height: 220px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+div.last>div>a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}

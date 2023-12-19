@@ -1,0 +1,43 @@
+div.slider3{
+    width: 1300px;
+    height: 150px;
+    position: relative;
+    margin: 1px auto;
+    border-radius: 20px;
+}
+div.slider3>div.sec{
+    width: inherit;
+    height: 140px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(157, 154, 154, 0.572)
+}
+
+div.slider3>div.sec>div.mySwiper3>div.swiper-wrapper>div{
+  width: 10%;
+  height: 150px;
+  margin: 20px auto;
+  border-style: solid;
+  border-width: 1px;
+  border-left: 0;
+  border-top: 0;
+  border-color: rgba(157, 154, 154, 0.572)
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    margin: 30px auto;
+  }

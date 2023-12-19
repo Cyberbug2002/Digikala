@@ -1,0 +1,48 @@
+div.circleadv1{
+    display: inline-block;
+    right: 300px;
+    position: relative;
+    right: 300px;
+    margin-top: 10px;
+}
+div.circleadv1>div{
+    display: inline-block;
+}
+div.circleadv1>div>img{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    display: inline-block;
+}
+div.circleadv1>div>a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 20px;
+    right: 70px;
+}
+div.circleadv2{
+    display: inline-block;
+    position: relative;
+    right: 300px;
+    position: relative;
+    right: 400px;
+    margin-top: 50px;
+}
+div.circleadv2>div{
+    display: inline-block;
+}
+div.circleadv2>div>img{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+div.circleadv2>div>a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 20px;
+    right: 70px;
+}
